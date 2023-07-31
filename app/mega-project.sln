@@ -4,6 +4,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mega-project-api", "mega-project-api\mega-project-api.csproj", "{8FD53B17-2DB2-4726-A7E9-FFB7C37AF70A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mega-project-api-unittests", "mega-project-api-unittests\mega-project-api-unittests.csproj", "{358F45EC-0394-4B3E-8EC2-E623F1933CCC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,5 +19,9 @@ Global
 		{8FD53B17-2DB2-4726-A7E9-FFB7C37AF70A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8FD53B17-2DB2-4726-A7E9-FFB7C37AF70A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8FD53B17-2DB2-4726-A7E9-FFB7C37AF70A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{358F45EC-0394-4B3E-8EC2-E623F1933CCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{358F45EC-0394-4B3E-8EC2-E623F1933CCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{358F45EC-0394-4B3E-8EC2-E623F1933CCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{358F45EC-0394-4B3E-8EC2-E623F1933CCC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
