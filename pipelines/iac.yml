@@ -6,4 +6,4 @@ pool:
 
 steps:
   - pwsh: terraform fmt -check
-    workingDirectory: iac
+    workingDirectory: IaC
