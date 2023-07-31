@@ -1,0 +1,4 @@
+{
+    "dotnet.defaultSolution": "app/mega-project.sln",
+    "FSharp.suggestGitignore": false
+}
