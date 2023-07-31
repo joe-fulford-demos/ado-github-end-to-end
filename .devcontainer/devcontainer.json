@@ -17,6 +17,7 @@
         "ms-dotnettools.csharp",
         "github.copilot",
         "github.copilot-labs",
+        "github.copilot-chat",
         "hashicorp.terraform",
         "ms-dotnettools.vscodeintellicode-csharp",
         "ms-vscode.powershell",
