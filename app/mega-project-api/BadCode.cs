@@ -1,3 +1,5 @@
+using System.Data.SqlClient;
+
 namespace mega_project_api
 {
     public class BadCode
