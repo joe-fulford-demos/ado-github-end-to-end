@@ -5,5 +5,5 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-  pwsh: terraform fmt -check
-  workingDirectory: iac
+  - pwsh: terraform fmt -check
+    workingDirectory: iac
