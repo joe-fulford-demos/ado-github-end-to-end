@@ -1,0 +1,26 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+    "ghcr.io/devcontainers/features/terraform:1": {},
+    "ghcr.io/devcontainers/features/dotnet:1": {},
+    "ghcr.io/devcontainers/features/azure-cli:1": {}
+  },
+  // Configure tool-specific properties.
+  "customizations": {
+    // Configure properties specific to VS Code.
+    "vscode": {
+      // Add the IDs of extensions you want installed when the container is created.
+      "extensions": [
+        "ms-dotnettools.csdevkit",
+        "ms-azuretools.vscode-azureterraform",
+        "ms-dotnettools.csharp",
+        "github.copilot",
+        "github.copilot-labs",
+        "hashicorp.terraform",
+        "ms-dotnettools.vscodeintellicode-csharp",
+        "ms-vscode.powershell",
+        "azapi-vscode.azapi"
+      ]
+    }
+  }
+}
